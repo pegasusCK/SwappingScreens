@@ -11,6 +11,9 @@ import UIKit
 class PlaySongVC: UIViewController {
     
     @IBOutlet weak var songTitleLbl: UILabel!
+    @IBAction func BackButtonPressed(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
     
     private var _selectedSong:String!
     
