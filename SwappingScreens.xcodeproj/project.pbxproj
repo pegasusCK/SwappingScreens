@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		00E8A1261E5F964600EAFC76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8A1251E5F964600EAFC76 /* AppDelegate.swift */; };
-		00E8A1281E5F964600EAFC76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8A1271E5F964600EAFC76 /* ViewController.swift */; };
+		00E8A1281E5F964600EAFC76 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8A1271E5F964600EAFC76 /* LoginVC.swift */; };
 		00E8A12B1E5F964600EAFC76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E8A1291E5F964600EAFC76 /* Main.storyboard */; };
 		00E8A12D1E5F964600EAFC76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00E8A12C1E5F964600EAFC76 /* Assets.xcassets */; };
 		00E8A1301E5F964600EAFC76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E8A12E1E5F964600EAFC76 /* LaunchScreen.storyboard */; };
 		00E8A13B1E5F964600EAFC76 /* SwappingScreensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8A13A1E5F964600EAFC76 /* SwappingScreensTests.swift */; };
 		00E8A1461E5F964600EAFC76 /* SwappingScreensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8A1451E5F964600EAFC76 /* SwappingScreensUITests.swift */; };
+		00E8A1541E5F988600EAFC76 /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8A1531E5F988600EAFC76 /* MusicListVC.swift */; };
+		00E8A1561E5F9F9700EAFC76 /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8A1551E5F9F9700EAFC76 /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		00E8A1221E5F964600EAFC76 /* SwappingScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwappingScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E8A1251E5F964600EAFC76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00E8A1271E5F964600EAFC76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00E8A1271E5F964600EAFC76 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		00E8A12A1E5F964600EAFC76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00E8A12C1E5F964600EAFC76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00E8A12F1E5F964600EAFC76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		00E8A1411E5F964600EAFC76 /* SwappingScreensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwappingScreensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E8A1451E5F964600EAFC76 /* SwappingScreensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwappingScreensUITests.swift; sourceTree = "<group>"; };
 		00E8A1471E5F964600EAFC76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E8A1531E5F988600EAFC76 /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		00E8A1551E5F9F9700EAFC76 /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaySongVC.swift; path = ../PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		00E8A1241E5F964600EAFC76 /* SwappingScreens */ = {
 			isa = PBXGroup;
 			children = (
+				00E8A1551E5F9F9700EAFC76 /* PlaySongVC.swift */,
 				00E8A1251E5F964600EAFC76 /* AppDelegate.swift */,
-				00E8A1271E5F964600EAFC76 /* ViewController.swift */,
+				00E8A1271E5F964600EAFC76 /* LoginVC.swift */,
 				00E8A1291E5F964600EAFC76 /* Main.storyboard */,
 				00E8A12C1E5F964600EAFC76 /* Assets.xcassets */,
 				00E8A12E1E5F964600EAFC76 /* LaunchScreen.storyboard */,
 				00E8A1311E5F964600EAFC76 /* Info.plist */,
+				00E8A1531E5F988600EAFC76 /* MusicListVC.swift */,
 			);
 			path = SwappingScreens;
 			sourceTree = "<group>";
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E8A1281E5F964600EAFC76 /* ViewController.swift in Sources */,
+				00E8A1541E5F988600EAFC76 /* MusicListVC.swift in Sources */,
+				00E8A1561E5F9F9700EAFC76 /* PlaySongVC.swift in Sources */,
+				00E8A1281E5F964600EAFC76 /* LoginVC.swift in Sources */,
 				00E8A1261E5F964600EAFC76 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
